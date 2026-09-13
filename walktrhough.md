@@ -1,6 +1,6 @@
 ## Getting started 
 
-This application was designed to allow interested users to probe the Wisconsis Breast Cancer datasets.
+This application was designed to allow interested users to probe the Wisconsin Breast Cancer dataset.
 Specifically users can: 
 - Train baseline or custom-configured classifiers on the  dataset
 - Evaluate trained models on standard metrics ( e.g. accuracy, ROC AUC, confusion matrix, classification report)
