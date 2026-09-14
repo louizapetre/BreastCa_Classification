@@ -35,8 +35,8 @@ def evaluate_models(model_output,X_test,y_test):
         print("Confusion matrix for", str(m), ":")
         print(cm)
             
-        cm_display= ConfusionMatrixDisplay.from_estimator(m, X=X_test, y=y_test, 
-        labels=m.classes_, cmap='Blues')
+        #cm_display= ConfusionMatrixDisplay.from_estimator(m, X=X_test, y=y_test, 
+        #labels=m.classes_, cmap='Blues')
             
         print('***** Classification report for ', str(m), '***** ')
         model_reports= classification_report(y_test, predictions,output_dict=True)
